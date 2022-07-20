@@ -92,8 +92,12 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\first.png" />
     <Content Include="images\image1.png" />
     <Content Include="images\image2.png" />
+    <Content Include="images\last.png" />
+    <Content Include="images\next.png" />
+    <Content Include="images\prev.png" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>

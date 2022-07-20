@@ -69,6 +69,7 @@
             </Columns>
             <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
             <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+            <PagerSettings FirstPageImageUrl="~/images/first.png" LastPageImageUrl="~/images/last.png" Mode="NextPreviousFirstLast" NextPageImageUrl="~/images/next.png" PreviousPageImageUrl="~/images/prev.png" />
             <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
             <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
             <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
