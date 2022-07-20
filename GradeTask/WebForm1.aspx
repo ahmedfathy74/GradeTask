@@ -53,17 +53,18 @@
                     <asp:Label ID="lblDescription" runat="server" Text='<%# Eval("Grade") %>'></asp:Label>
                 </ItemTemplate>
             </asp:TemplateField>
-                <asp:BoundField ItemStyle-Width="150px" DataField="GradeName" HeaderText="GradeName" SortExpression="GradeName" >
+                 <asp:ButtonField Text="Select"  DataTextField="GradeName"
+                    HeaderText="GradeName"
+                    CommandName="Select"/>
+              <%--  <asp:BoundField ItemStyle-Width="150px" DataField="GradeName" HeaderText="GradeName" SortExpression="GradeName" >
 <ItemStyle Width="150px"></ItemStyle>
+                </asp:BoundField>--%>
+                <asp:BoundField DataField="GradeGroupName" HeaderText="GradeGroupName" SortExpression="GradeGroupName" >
                 </asp:BoundField>
-                <asp:BoundField ItemStyle-Width="150px" DataField="GradeGroupName" HeaderText="GradeGroupName" SortExpression="GradeGroupName" >
-<ItemStyle Width="150px"></ItemStyle>
+                <asp:BoundField DataField="GradeCons" HeaderText="GradeCons" SortExpression="GradeCons" >
+
                 </asp:BoundField>
-                <asp:BoundField ItemStyle-Width="150px" DataField="GradeCons" HeaderText="GradeCons" SortExpression="GradeCons" >
-<ItemStyle Width="150px"></ItemStyle>
-                </asp:BoundField>
-                <asp:BoundField ItemStyle-Width="150px" DataField="GradeNameCons" HeaderText="GradeNameCons" SortExpression="GradeNameCons" >
-<ItemStyle Width="150px"></ItemStyle>
+                <asp:BoundField DataField="GradeNameCons" HeaderText="GradeNameCons" SortExpression="GradeNameCons" >
                 </asp:BoundField>
             </Columns>
             <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
